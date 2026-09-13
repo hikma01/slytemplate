@@ -1,0 +1,16 @@
+{
+  "mission_ref": "SLYDESIGN-LOT7-E2E-001",
+  "observed_at": "2026-09-09T00:00:00Z",
+  "runtime": {"renderer": "chromium-headless", "renderer_version": "152.0.0", "locale": "en-US", "timezone": "UTC", "network": "deny-by-default"},
+  "fixtures": [
+    {"id": "CV_SHORT", "status": "FIT", "page_count": 1, "content_height": 462, "diagnostics": []},
+    {"id": "CV_STANDARD", "status": "FIT", "page_count": 1, "content_height": 590, "diagnostics": []},
+    {"id": "CV_DENSE", "status": "FIT", "page_count": 1, "content_height": 782, "diagnostics": []},
+    {"id": "CV_OVERFLOW", "status": "OVERFLOW", "page_count": 2, "content_height": 1662, "overflow_height": 539.48, "diagnostics": ["OVERFLOW"]},
+    {"id": "CV_UNICODE", "status": "FIT", "page_count": 1, "content_height": 574, "diagnostics": []},
+    {"id": "CV_CONSTRAINT_VIOLATION", "status": "CONSTRAINT_VIOLATION", "page_count": 1, "content_height": 702, "constraint_id": "identity-max-height", "measured_value": 118, "allowed_boundary": 100, "diagnostics": ["CONSTRAINT_VIOLATION"]}
+  ],
+  "assertions": {"pdf": "PASS", "semantic_integrity": "PASS", "trace_lineage": "PASS", "functional_determinism": "PASS_WITH_LIMITATIONS", "persistence": "NONE", "public_backend_leakage": "NO", "node_count": 2},
+  "tests": {"total": 45, "passed": 45, "failed": 0, "audit_high": "0 vulnerabilities"},
+  "operational_debt": ["D01 HOST_FONTS", "D02 OS_CGROUPS_ISOLATION_EVIDENCE"]
+}

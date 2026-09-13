@@ -1,0 +1,81 @@
+[
+  {
+    "id": "CV_FIXTURE_01",
+    "label": "short / one page",
+    "name": "Ada Martin",
+    "title": "Product Designer",
+    "summary": "Design systems, accessible interfaces and clear product narratives.",
+    "experienceCount": 2,
+    "skillCount": 6,
+    "educationCount": 1,
+    "paragraphsPerExperience": 1,
+    "specialCharacters": false,
+    "targetOverflow": false
+  },
+  {
+    "id": "CV_FIXTURE_02",
+    "label": "standard / two pages",
+    "name": "Thomas Bernard",
+    "title": "Software Architect",
+    "summary": "Platform architecture, resilient services and pragmatic technical leadership.",
+    "experienceCount": 5,
+    "skillCount": 12,
+    "educationCount": 2,
+    "paragraphsPerExperience": 3,
+    "pageBreakAfterExperience": 3,
+    "specialCharacters": false,
+    "targetOverflow": false
+  },
+  {
+    "id": "CV_FIXTURE_03",
+    "label": "dense",
+    "name": "Nadia Dupont",
+    "title": "Programme Director",
+    "summary": "Complex programme delivery across regulated environments and distributed teams.",
+    "experienceCount": 8,
+    "skillCount": 24,
+    "educationCount": 4,
+    "paragraphsPerExperience": 5,
+    "specialCharacters": false,
+    "targetOverflow": false
+  },
+  {
+    "id": "CV_FIXTURE_04",
+    "label": "extreme / overflow",
+    "name": "Victor Morel",
+    "title": "Transformation Lead",
+    "summary": "A deliberately extreme content volume used to verify bounded overflow diagnostics.",
+    "experienceCount": 18,
+    "skillCount": 48,
+    "educationCount": 8,
+    "paragraphsPerExperience": 10,
+    "specialCharacters": false,
+    "targetOverflow": true
+  },
+  {
+    "id": "CV_FIXTURE_05",
+    "label": "special characters / Unicode",
+    "name": "Zoë Łucas — 李明",
+    "title": "Ingénieur données / Data Engineer",
+    "summary": "Éléments accentués, ligatures, emoji contrôlé et caractères non latins : à mesurer sans substitution silencieuse.",
+    "experienceCount": 3,
+    "skillCount": 10,
+    "educationCount": 2,
+    "paragraphsPerExperience": 2,
+    "specialCharacters": true,
+    "targetOverflow": false
+  },
+  {
+    "id": "CV_FIXTURE_06",
+    "label": "measurable constraint",
+    "name": "Samir Petit",
+    "title": "Consultant conformité",
+    "summary": "Fixture designed to exercise a measurable content-area constraint.",
+    "experienceCount": 6,
+    "skillCount": 16,
+    "educationCount": 2,
+    "paragraphsPerExperience": 4,
+    "specialCharacters": false,
+    "targetOverflow": true
+  }
+]

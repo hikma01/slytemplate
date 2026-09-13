@@ -1,0 +1,6 @@
+{
+  "name": "slydesign-renderer-benchmark-001",
+  "private": true,
+  "type": "module",
+  "description": "SPIKE_ONLY / NON_PRODUCTION renderer benchmark harness"
+}

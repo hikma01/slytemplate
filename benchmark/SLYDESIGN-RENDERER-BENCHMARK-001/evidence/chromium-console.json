@@ -1,0 +1,7 @@
+{
+  "stack": "chromium-headless + playwright-execution-layer",
+  "fixtures": 6,
+  "functional_deterministic": true,
+  "artifact_hash_stable": false,
+  "evidence": "/Users/hakimradi/Nextcloud/SlyProjet/SlyDesign/benchmark/SLYDESIGN-RENDERER-BENCHMARK-001/evidence/chromium-results.json"
+}

@@ -1,0 +1,155 @@
+{
+  "benchmark": "SLYDESIGN-RENDERER-BENCHMARK-001",
+  "stack": "weasyprint",
+  "status": "SPIKE_ONLY / NON_PRODUCTION",
+  "environment": {
+    "renderer_engine": "WeasyPrint",
+    "renderer_engine_version": "70.0",
+    "locale": "en-US",
+    "timezone": "UTC",
+    "network_policy": "no external resources supplied"
+  },
+  "resource": {
+    "max_rss_kb": 103972864
+  },
+  "results": [
+    {
+      "fixture_id": "CV_FIXTURE_01",
+      "page_count": 1,
+      "page_bounds": [
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        }
+      ],
+      "duration_ms": 217.81868592370301,
+      "artifact_bytes": 8907,
+      "slot_bounds": "UNAVAILABLE_FROM_PUBLIC_API",
+      "overflow_height": "UNAVAILABLE_FROM_PUBLIC_API",
+      "overflow_width": "UNAVAILABLE_FROM_PUBLIC_API",
+      "constraint_measurements": "UNAVAILABLE_FROM_PUBLIC_API"
+    },
+    {
+      "fixture_id": "CV_FIXTURE_02",
+      "status": "RENDER_FAILED",
+      "failure_type": "AssertionError",
+      "sanitized_message": ""
+    },
+    {
+      "fixture_id": "CV_FIXTURE_03",
+      "page_count": 3,
+      "page_bounds": [
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        },
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        },
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        }
+      ],
+      "duration_ms": 752.7370828902349,
+      "artifact_bytes": 12034,
+      "slot_bounds": "UNAVAILABLE_FROM_PUBLIC_API",
+      "overflow_height": "UNAVAILABLE_FROM_PUBLIC_API",
+      "overflow_width": "UNAVAILABLE_FROM_PUBLIC_API",
+      "constraint_measurements": "UNAVAILABLE_FROM_PUBLIC_API"
+    },
+    {
+      "fixture_id": "CV_FIXTURE_04",
+      "page_count": 10,
+      "page_bounds": [
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        },
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        },
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        },
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        },
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        },
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        },
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        },
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        },
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        },
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        }
+      ],
+      "duration_ms": 7509.576844982803,
+      "artifact_bytes": 18427,
+      "slot_bounds": "UNAVAILABLE_FROM_PUBLIC_API",
+      "overflow_height": "UNAVAILABLE_FROM_PUBLIC_API",
+      "overflow_width": "UNAVAILABLE_FROM_PUBLIC_API",
+      "constraint_measurements": "UNAVAILABLE_FROM_PUBLIC_API"
+    },
+    {
+      "fixture_id": "CV_FIXTURE_05",
+      "page_count": 1,
+      "page_bounds": [
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        }
+      ],
+      "duration_ms": 425.84083206020296,
+      "artifact_bytes": 35392,
+      "slot_bounds": "UNAVAILABLE_FROM_PUBLIC_API",
+      "overflow_height": "UNAVAILABLE_FROM_PUBLIC_API",
+      "overflow_width": "UNAVAILABLE_FROM_PUBLIC_API",
+      "constraint_measurements": "UNAVAILABLE_FROM_PUBLIC_API"
+    },
+    {
+      "fixture_id": "CV_FIXTURE_06",
+      "page_count": 2,
+      "page_bounds": [
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        },
+        {
+          "width": 793.7007874015749,
+          "height": 1122.5196850393702
+        }
+      ],
+      "duration_ms": 393.26048106886446,
+      "artifact_bytes": 10891,
+      "slot_bounds": "UNAVAILABLE_FROM_PUBLIC_API",
+      "overflow_height": "UNAVAILABLE_FROM_PUBLIC_API",
+      "overflow_width": "UNAVAILABLE_FROM_PUBLIC_API",
+      "constraint_measurements": "UNAVAILABLE_FROM_PUBLIC_API"
+    }
+  ],
+  "limitations": [
+    "public API did not expose normalized slot bounds in this adapter",
+    "font set not frozen"
+  ]
+}

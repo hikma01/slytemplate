@@ -1,0 +1,2311 @@
+{
+  "benchmark": "SLYDESIGN-RENDERER-BENCHMARK-001",
+  "stack": "pagedjs-pagination + chromium-headless + playwright-execution-layer",
+  "status": "SPIKE_ONLY / NON_PRODUCTION",
+  "executed_at": "2026-09-09T18:15:09.104Z",
+  "environment": {
+    "renderer_engine": "Google Chrome",
+    "execution_layer": "Playwright",
+    "pagination_layer": "Paged.js",
+    "locale": "en-US",
+    "timezone": "UTC",
+    "network_policy": "blocked by route interception"
+  },
+  "results": [
+    {
+      "fixture_id": "CV_FIXTURE_01",
+      "repetitions": [
+        {
+          "repetition": 1,
+          "measurements": {
+            "page_count": 1,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 210.828125,
+                  "width": 440.9375,
+                  "height": 175.171875
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 247.046875,
+                  "width": 440.9375,
+                  "height": 61.921875
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 324.078125,
+                  "width": 440.9375,
+                  "height": 61.921875
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 210.828125,
+                  "width": 220.46875,
+                  "height": 132.234375
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 358.171875,
+                  "width": 220.46875,
+                  "height": 61.921875
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "f25a104e5ba8b2d5ffbb6ac7f6c2a97259c0c9a5505d590d5e9cc8a9fe4fe401",
+          "artifact_bytes": 66238,
+          "duration_ms": 170.441553
+        },
+        {
+          "repetition": 2,
+          "measurements": {
+            "page_count": 1,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 210.828125,
+                  "width": 440.9375,
+                  "height": 175.171875
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 247.046875,
+                  "width": 440.9375,
+                  "height": 61.921875
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 324.078125,
+                  "width": 440.9375,
+                  "height": 61.921875
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 210.828125,
+                  "width": 220.46875,
+                  "height": 132.234375
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 358.171875,
+                  "width": 220.46875,
+                  "height": 61.921875
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "7566091d0cb4aa231046eeacdacee747656fac7216a59424b13dc17573c38a36",
+          "artifact_bytes": 66238,
+          "duration_ms": 189.279933
+        },
+        {
+          "repetition": 3,
+          "measurements": {
+            "page_count": 1,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 210.828125,
+                  "width": 440.9375,
+                  "height": 175.171875
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 247.046875,
+                  "width": 440.9375,
+                  "height": 61.921875
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 324.078125,
+                  "width": 440.9375,
+                  "height": 61.921875
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 210.828125,
+                  "width": 220.46875,
+                  "height": 132.234375
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 358.171875,
+                  "width": 220.46875,
+                  "height": 61.921875
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "262899f8ca7bcb4bd52f06c3bf1ba01b9b5f5e3643897128b196cce6831d3f6f",
+          "artifact_bytes": 66238,
+          "duration_ms": 168.5044
+        }
+      ],
+      "functional_determinism": true,
+      "artifact_hash_stable": false
+    },
+    {
+      "fixture_id": "CV_FIXTURE_02",
+      "repetitions": [
+        {
+          "repetition": 1,
+          "measurements": {
+            "page_count": 2,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 1122.515625,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 210.828125,
+                  "width": 440.9375,
+                  "height": 508.421875
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 247.046875,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 409.484375,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 571.921875,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 309.765625
+                }
+              },
+              {
+                "slot_id": "experience_4",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "experience_5",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1352.96875,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 1190.53125,
+                  "width": 220.46875,
+                  "height": 237.703125
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 1443.34375,
+                  "width": 220.46875,
+                  "height": 97.078125
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "5a233d1742014aeb44688e171425dad515b0918462f5f4a78afa3da63f0525ac",
+          "artifact_bytes": 73953,
+          "duration_ms": 176.02181
+        },
+        {
+          "repetition": 2,
+          "measurements": {
+            "page_count": 2,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 1122.515625,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 210.828125,
+                  "width": 440.9375,
+                  "height": 508.421875
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 247.046875,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 409.484375,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 571.921875,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 309.765625
+                }
+              },
+              {
+                "slot_id": "experience_4",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "experience_5",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1352.96875,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 1190.53125,
+                  "width": 220.46875,
+                  "height": 237.703125
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 1443.34375,
+                  "width": 220.46875,
+                  "height": 97.078125
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "17af4f536ebd9b174818a49855b6130ada4207b7b3553d679453e07870a07d2d",
+          "artifact_bytes": 73953,
+          "duration_ms": 176.63664
+        },
+        {
+          "repetition": 3,
+          "measurements": {
+            "page_count": 2,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 1122.515625,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 210.828125,
+                  "width": 440.9375,
+                  "height": 508.421875
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 247.046875,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 409.484375,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 571.921875,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 309.765625
+                }
+              },
+              {
+                "slot_id": "experience_4",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "experience_5",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1352.96875,
+                  "width": 440.9375,
+                  "height": 147.328125
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 1190.53125,
+                  "width": 220.46875,
+                  "height": 237.703125
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 1443.34375,
+                  "width": 220.46875,
+                  "height": 97.078125
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "6cd0a579d24a11c98dcc908b9b5f8fc8c650f62be7f365aec45e3c9817535515",
+          "artifact_bytes": 73953,
+          "duration_ms": 173.446709
+        }
+      ],
+      "functional_determinism": true,
+      "artifact_hash_stable": false
+    },
+    {
+      "fixture_id": "CV_FIXTURE_03",
+      "repetitions": [
+        {
+          "repetition": 1,
+          "measurements": {
+            "page_count": 4,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 1122.515625,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 2245.03125,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 3367.546875,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 764.640625
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1226.75,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1474.59375,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1722.4375,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 976.265625
+                }
+              },
+              {
+                "slot_id": "experience_4",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_5",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2560.890625,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_6",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2808.734375,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_7",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3056.578125,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3435.5625,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_8",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3435.5625,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 3435.5625,
+                  "width": 220.46875,
+                  "height": 448.640625
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 3899.3125,
+                  "width": 220.46875,
+                  "height": 167.390625
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "ae2c989a8c23fa701a36ac155ce0c01b8169f47843fd7145e39cd026ee9c15b7",
+          "artifact_bytes": 75351,
+          "duration_ms": 181.17835
+        },
+        {
+          "repetition": 2,
+          "measurements": {
+            "page_count": 4,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 1122.515625,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 2245.03125,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 3367.546875,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 764.640625
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1226.75,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1474.59375,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1722.4375,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 976.265625
+                }
+              },
+              {
+                "slot_id": "experience_4",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_5",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2560.890625,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_6",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2808.734375,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_7",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3056.578125,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3435.5625,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_8",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3435.5625,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 3435.5625,
+                  "width": 220.46875,
+                  "height": 448.640625
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 3899.3125,
+                  "width": 220.46875,
+                  "height": 167.390625
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "6aa38c85a243dd6b62eff5a9535845379c8f88435adcc3a9179db82ec2f53fad",
+          "artifact_bytes": 75351,
+          "duration_ms": 177.709183
+        },
+        {
+          "repetition": 3,
+          "measurements": {
+            "page_count": 4,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 1122.515625,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 2245.03125,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 3367.546875,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 764.640625
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1226.75,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1474.59375,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1722.4375,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 976.265625
+                }
+              },
+              {
+                "slot_id": "experience_4",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_5",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2560.890625,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_6",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2808.734375,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_7",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3056.578125,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3435.5625,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "experience_8",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3435.5625,
+                  "width": 440.9375,
+                  "height": 232.734375
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 3435.5625,
+                  "width": 220.46875,
+                  "height": 448.640625
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 3899.3125,
+                  "width": 220.46875,
+                  "height": 167.390625
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "610a74a0de107033210b7dccf964734f6227613f297c193d1409fce009acca0c",
+          "artifact_bytes": 75351,
+          "duration_ms": 181.747802
+        }
+      ],
+      "functional_determinism": true,
+      "artifact_hash_stable": false
+    },
+    {
+      "fixture_id": "CV_FIXTURE_04",
+      "repetitions": [
+        {
+          "repetition": 1,
+          "measurements": {
+            "page_count": 4,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 1122.515625,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 2245.03125,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 3367.546875,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 943.828125
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1226.75,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1688.109375,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 907.609375
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience_4",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2774.40625,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3435.5625,
+                  "width": 440.9375,
+                  "height": 907.609375
+                }
+              },
+              {
+                "slot_id": "experience_5",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3435.5625,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience_6",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3896.921875,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "84f414cad243892636972ceba68cffd8a6adc393187d39e0d65c4da6c1649235",
+          "artifact_bytes": 70733,
+          "duration_ms": 204.714134
+        },
+        {
+          "repetition": 2,
+          "measurements": {
+            "page_count": 4,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 1122.515625,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 2245.03125,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 3367.546875,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 943.828125
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1226.75,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1688.109375,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 907.609375
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience_4",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2774.40625,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3435.5625,
+                  "width": 440.9375,
+                  "height": 907.609375
+                }
+              },
+              {
+                "slot_id": "experience_5",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3435.5625,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience_6",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3896.921875,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "bb84b6c0ceef5b187e6b343c3dbaefdd7801df84d26a1e74b0b060b5d447ab83",
+          "artifact_bytes": 70733,
+          "duration_ms": 210.33717
+        },
+        {
+          "repetition": 3,
+          "measurements": {
+            "page_count": 4,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 1122.515625,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 2245.03125,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 3367.546875,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 943.828125
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1226.75,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1688.109375,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 907.609375
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience_4",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2774.40625,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3435.5625,
+                  "width": 440.9375,
+                  "height": 907.609375
+                }
+              },
+              {
+                "slot_id": "experience_5",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3435.5625,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              },
+              {
+                "slot_id": "experience_6",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 3896.921875,
+                  "width": 440.9375,
+                  "height": 446.25
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "13677d016ef44b79375771a9043b6dc87b037cc46744ffb25dab78cd34e2857f",
+          "artifact_bytes": 70733,
+          "duration_ms": 202.38738
+        }
+      ],
+      "functional_determinism": true,
+      "artifact_hash_stable": false
+    },
+    {
+      "fixture_id": "CV_FIXTURE_05",
+      "repetitions": [
+        {
+          "repetition": 1,
+          "measurements": {
+            "page_count": 1,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 210.828125,
+                  "width": 440.9375,
+                  "height": 485.78125
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 247.046875,
+                  "width": 440.9375,
+                  "height": 139.78125
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 401.9375,
+                  "width": 440.9375,
+                  "height": 139.78125
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 556.828125,
+                  "width": 440.9375,
+                  "height": 139.78125
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 210.828125,
+                  "width": 220.46875,
+                  "height": 202.546875
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 428.484375,
+                  "width": 220.46875,
+                  "height": 97.078125
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "9c1e333c0c24d2eb414c116d465b0de6b8c9532c2aaf8aebfe10b174f4e85b52",
+          "artifact_bytes": 81056,
+          "duration_ms": 357.516696
+        },
+        {
+          "repetition": 2,
+          "measurements": {
+            "page_count": 1,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 210.828125,
+                  "width": 440.9375,
+                  "height": 485.78125
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 247.046875,
+                  "width": 440.9375,
+                  "height": 139.78125
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 401.9375,
+                  "width": 440.9375,
+                  "height": 139.78125
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 556.828125,
+                  "width": 440.9375,
+                  "height": 139.78125
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 210.828125,
+                  "width": 220.46875,
+                  "height": 202.546875
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 428.484375,
+                  "width": 220.46875,
+                  "height": 97.078125
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "3a0065c103136a5d5f0a6b0c8d874e8ed443bd49b978c3baff75a6d45eca2861",
+          "artifact_bytes": 81056,
+          "duration_ms": 356.047324
+        },
+        {
+          "repetition": 3,
+          "measurements": {
+            "page_count": 1,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 210.828125,
+                  "width": 440.9375,
+                  "height": 485.78125
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 247.046875,
+                  "width": 440.9375,
+                  "height": 139.78125
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 401.9375,
+                  "width": 440.9375,
+                  "height": 139.78125
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 556.828125,
+                  "width": 440.9375,
+                  "height": 139.78125
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 210.828125,
+                  "width": 220.46875,
+                  "height": 202.546875
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 428.484375,
+                  "width": 220.46875,
+                  "height": 97.078125
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "c2d5ed58ce58eb74cbae16c60c24967f501ae7b2c395b4d0a3baeb8f960af54d",
+          "artifact_bytes": 81056,
+          "duration_ms": 354.386005
+        }
+      ],
+      "functional_determinism": true,
+      "artifact_hash_stable": false
+    },
+    {
+      "fixture_id": "CV_FIXTURE_06",
+      "repetitions": [
+        {
+          "repetition": 1,
+          "measurements": {
+            "page_count": 3,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 1122.515625,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 2245.03125,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 841.671875
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1226.75,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1431.890625,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1637.03125,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience_4",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1842.171875,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 395.171875
+                }
+              },
+              {
+                "slot_id": "experience_5",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience_6",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2518.1875,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 2313.046875,
+                  "width": 220.46875,
+                  "height": 308.015625
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 2636.171875,
+                  "width": 220.46875,
+                  "height": 97.078125
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "a42859a3859ec0ef7044e90f3f4a2a615859b3fc47ffb12e344f8407780a9f08",
+          "artifact_bytes": 74586,
+          "duration_ms": 174.020484
+        },
+        {
+          "repetition": 2,
+          "measurements": {
+            "page_count": 3,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 1122.515625,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 2245.03125,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 841.671875
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1226.75,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1431.890625,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1637.03125,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience_4",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1842.171875,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 395.171875
+                }
+              },
+              {
+                "slot_id": "experience_5",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience_6",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2518.1875,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 2313.046875,
+                  "width": 220.46875,
+                  "height": 308.015625
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 2636.171875,
+                  "width": 220.46875,
+                  "height": 97.078125
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "d322d316a924964eb39e90b53edc20634da0d6748974e5457f7e1b3eadeaa4bd",
+          "artifact_bytes": 74586,
+          "duration_ms": 175.573873
+        },
+        {
+          "repetition": 3,
+          "measurements": {
+            "page_count": 3,
+            "page_bounds": [
+              {
+                "x": 0,
+                "y": 0,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 1122.515625,
+                "width": 793.6875,
+                "height": 1122.515625
+              },
+              {
+                "x": 0,
+                "y": 2245.03125,
+                "width": 793.6875,
+                "height": 1122.515625
+              }
+            ],
+            "content_bounds": {
+              "x": 52.90625,
+              "y": 52.90625,
+              "width": 687.859375,
+              "height": 1016.6875
+            },
+            "slot_bounds": [
+              {
+                "slot_id": "identity",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 52.90625,
+                  "width": 687.859375,
+                  "height": 123.921875
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1190.53125,
+                  "width": 440.9375,
+                  "height": 841.671875
+                }
+              },
+              {
+                "slot_id": "experience_1",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1226.75,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience_2",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1431.890625,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience_3",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1637.03125,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience_4",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 1842.171875,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 395.171875
+                }
+              },
+              {
+                "slot_id": "experience_5",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2313.046875,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "experience_6",
+                "bounds": {
+                  "x": 52.90625,
+                  "y": 2518.1875,
+                  "width": 440.9375,
+                  "height": 190.03125
+                }
+              },
+              {
+                "slot_id": "skills",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 2313.046875,
+                  "width": 220.46875,
+                  "height": 308.015625
+                }
+              },
+              {
+                "slot_id": "education",
+                "bounds": {
+                  "x": 520.296875,
+                  "y": 2636.171875,
+                  "width": 220.46875,
+                  "height": 97.078125
+                }
+              }
+            ],
+            "overflow_height": null,
+            "overflow_width": null,
+            "affected_regions": [],
+            "constraint_measurements": []
+          },
+          "artifact_sha256": "2ba79a56eafe1cc1724f1a9091b0a66a33e9913aa40971181f9b8cd314ff6b8c",
+          "artifact_bytes": 74586,
+          "duration_ms": 173.165561
+        }
+      ],
+      "functional_determinism": true,
+      "artifact_hash_stable": false
+    }
+  ],
+  "limitations": [
+    "Paged.js pagination measurements do not yet normalize overflow fields into RFC-002 diagnostics"
+  ]
+}

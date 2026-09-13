@@ -1,0 +1,13 @@
+{
+  "benchmark": "SLYDESIGN-CHROMIUM-EVIDENCE-CLOSURE-001",
+  "fixtures": 6,
+  "repetitions": 5,
+  "statuses": {
+    "rfc_002_measurements": "PASS_WITH_LIMITATIONS",
+    "determinism": "PASS_WITH_LIMITATIONS",
+    "security_isolation": "PASS_WITH_LIMITATIONS",
+    "performance_memory": "PASS_WITH_LIMITATIONS",
+    "chromium_ratification_recommendation": "RATIFY_WITH_LIMITATIONS"
+  },
+  "evidence": "/Users/hakimradi/Nextcloud/SlyProjet/SlyDesign/benchmark/SLYDESIGN-RENDERER-BENCHMARK-001/evidence/chromium-closure-results.json"
+}

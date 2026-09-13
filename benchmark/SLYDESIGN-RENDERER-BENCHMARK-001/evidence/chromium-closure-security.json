@@ -1,0 +1,21 @@
+{
+  "probes": {
+    "network": "BLOCKED",
+    "filesystem": "BLOCKED",
+    "credentials": {
+      "credentialApiAvailable": false,
+      "persistentContext": false
+    },
+    "timeout": "BOUNDED_TIMEOUT"
+  },
+  "blocked_requests": [
+    {
+      "url": "https://example.com/",
+      "resource_type": "document"
+    },
+    {
+      "url": "file:///etc/passwd",
+      "resource_type": "document"
+    }
+  ]
+}
