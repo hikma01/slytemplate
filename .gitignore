@@ -1,5 +1,6 @@
 node_modules/
 dist/
 benchmark/**/.venv/
+benchmark/**/evidence/*-profile-*/
 benchmark/**/__pycache__/
 *.pyc
