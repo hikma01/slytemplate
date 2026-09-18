@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc --project tsconfig.json",
-    "test": "npm run build && node --test dist/tests/contracts.test.js dist/tests/core.test.js dist/tests/templates/cv.test.js dist/tests/renderer-adapter.test.js dist/tests/chromium.test.js dist/tests/feedback.test.js dist/tests/integration/slycv.test.js"
+    "test": "npm run build && node --test dist/tests/contracts.test.js dist/tests/core.test.js dist/tests/templates/cv.test.js dist/tests/renderer-adapter.test.js dist/tests/chromium.test.js dist/tests/feedback.test.js dist/tests/integration/slycv.test.js dist/tests/integration/semantic.test.js"
   },
   "devDependencies": {
     "typescript": "^5.9.2"

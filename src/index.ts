@@ -5,3 +5,4 @@ export * from './renderer-adapter/index.js';
 export * from './renderer-adapter/chromium/index.js';
 export * from './feedback/index.js';
 export * from './integration/slycv/index.js';
+export * from './integration/semantic/index.js';
