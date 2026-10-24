@@ -87,6 +87,16 @@ documentés et adjudiqués.
 État : `PHASE_4_CLOSED_V1_ACCEPTED_WITH_OPERATIONAL_DEBT`; dettes
 opérationnelles Chromium D01/D02 conservées.
 
+## Post-V1 — Downstream foundation
+
+État : `TECHNICALLY_COMPLETE_WITH_NON_BLOCKING_DEBT`.
+
+Le socle downstream V1 est implémenté pour un seul template CV :
+`TemplatePackage@1.0.0`, `TemplateRegistry@1.0.0` et
+`SelectedTemplate@1.0.0` manuel. Le binding `CanonicalSlots → Package → Core`
+et le replay Chromium sont validés. La sélection automatique et les templates
+supplémentaires restent différés.
+
 ## Gates
 
 1. `GATE-SLYDESIGN-FOUNDATION-001` : Boussole, topologie, limites et index

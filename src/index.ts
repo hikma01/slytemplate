@@ -6,3 +6,4 @@ export * from './renderer-adapter/chromium/index.js';
 export * from './feedback/index.js';
 export * from './integration/slycv/index.js';
 export * from './integration/semantic/index.js';
+export * from './downstream/index.js';

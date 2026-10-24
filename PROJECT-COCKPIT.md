@@ -4,14 +4,14 @@
 project_id: MODULE_DESIGN
 module_id: SLYTEMPLATE
 mission_ref: SLYDESIGN-GOV-FOUNDATION-002
-status: PHASE_4_CLOSED_V1_ACCEPTED_WITH_OPERATIONAL_DEBT
+status: PHASE_4_CLOSED_DOWNSTREAM_V1_TECHNICALLY_COMPLETE
 code_authority: CLOSED
 current_scope: CV
 future_scope: DEFERRED
 node_model: RATIFIED_2_NODES
 topology_gate: DOCUMENTED_AND_BACKEND_RATIFIED_WITH_LIMITATIONS
-current_gate: GATE-SLYDESIGN-V1-FINAL-ADJUDICATION-001
-next_gate: NONE_CONSTRUCTION_CLOSED
+current_gate: TEMPLATE-DOWNSTREAM-COMPLETION-HUMAN-REVIEW
+next_gate: HUMAN_REVIEW
 ```
 
 ## Snapshot
@@ -54,5 +54,8 @@ dimensions différentes : responsabilité structurelle et orchestration runtime.
 - LOT 5 fermé ; LOT 6 implémenté et testé, en attente d'adjudication CC.
 - LOT 7 exécuté : E2E CV et visibilité ArchiOps validées, avec dettes
   opérationnelles D01/D02 conservées.
+- Downstream V1 exécuté : un `TemplatePackage`, un `TemplateRegistry` mono-
+  template et une sélection manuelle `SelectedTemplate` sont validés avec
+  binding CanonicalSlots et replay CV non régressif.
 - Aucune extension BusinessCard, Banner ou Flyer ouverte.
 - Aucune mutation du contenu métier permise.

@@ -3,7 +3,8 @@ import {evaluateRenderFeedback, type FeedbackEvaluationContext} from '../../feed
 import {ChromiumBackend, type ChromiumBackendConfiguration} from '../../renderer-adapter/chromium/index.js';
 import {RendererAdapter, type RendererAdapterResult} from '../../renderer-adapter/index.js';
 import type {ImmutableVersionRef, LineageEntry, PresentationDocumentDTO, RenderFeedback, RenderRequest, Slot} from '../../contracts/index.js';
-import {cvFoundationDesignInputs, cvFoundationTemplate} from '../../templates/cv/index.js';
+import {cvFoundationDesignInputs, cvFoundationPackage} from '../../templates/cv/index.js';
+import {TemplateRegistry, selectTemplateManually, type SelectedTemplate, type TemplatePackage} from '../../downstream/index.js';
 
 export interface SlyCvProducerInput {
   readonly documentId: string;
@@ -27,6 +28,8 @@ export interface CvEndToEndResult {
   readonly tree: ReturnType<typeof composePresentationTree>;
   readonly render: RendererAdapterResult;
   readonly feedback: RenderFeedback;
+  readonly selectedTemplate: SelectedTemplate;
+  readonly templatePackage: TemplatePackage;
 }
 
 const slot = (id: string, type: Slot['type'], content: unknown, items: readonly unknown[], semantics: string): Slot => ({id, type, exists: true, items, count: items.length, content, semantics});
@@ -52,14 +55,15 @@ export function adaptSlyCvProducerInput(input: SlyCvProducerInput): Presentation
   };
 }
 
-function requestFor(document: PresentationDocumentDTO, input: SlyCvProducerInput, requestId: string): RenderRequest {
+function requestFor(document: PresentationDocumentDTO, input: SlyCvProducerInput, requestId: string, templatePackage: TemplatePackage): RenderRequest {
   return {
     request_id: requestId,
     traceId: `trace-${requestId}`,
     contextId: `context-${input.documentId}`,
     lineage: input.lineage,
-    template_id: cvFoundationTemplate.template_id,
-    template_version: cvFoundationTemplate.template_version,
+    template_id: templatePackage.templateContract.template_id,
+    template_version: templatePackage.templateContract.template_version,
+    template_package_ref: {reference: templatePackage.packageId, version: templatePackage.packageVersion},
     payload: document,
     presentation_contract_version: '1.0.0',
     design_policy_version: cvFoundationDesignInputs.design_policy,
@@ -82,8 +86,11 @@ function feedbackResultForFixture(result: RendererAdapterResult, input: SlyCvPro
 
 export async function renderSlyCvEndToEnd(input: SlyCvProducerInput, chromiumConfiguration: ChromiumBackendConfiguration, requestId = `render-${input.documentId}`): Promise<CvEndToEndResult> {
   const document = adaptSlyCvProducerInput(input);
-  const request = requestFor(document, input, requestId);
-  const tree = composePresentationTree(request, cvFoundationTemplate, cvFoundationDesignInputs);
+  const registry = new TemplateRegistry().register(cvFoundationPackage);
+  const selectedTemplate = selectTemplateManually(registry, cvFoundationPackage.packageId, cvFoundationPackage.packageVersion, 'slycv-e2e', 'slycv-producer', '2026-09-09T00:00:00.000Z', input.lineage);
+  const templatePackage = registry.lookup(selectedTemplate.packageId, selectedTemplate.packageVersion);
+  const request = requestFor(document, input, requestId, templatePackage);
+  const tree = composePresentationTree(request, templatePackage.templateContract, cvFoundationDesignInputs);
   const backend = new ChromiumBackend(chromiumConfiguration);
   const adapter = new RendererAdapter(backend, {rendererId: chromiumConfiguration.rendererId, rendererVersion: chromiumConfiguration.rendererVersion});
   const rawRender = await adapter.render({
@@ -101,7 +108,7 @@ export async function renderSlyCvEndToEnd(input: SlyCvProducerInput, chromiumCon
   });
   const render = feedbackResultForFixture(rawRender, input);
   const context: FeedbackEvaluationContext = {presentationRunId: `run-${input.documentId}`, attempt: 1, createdAt: '2026-09-09T00:00:00.000Z'};
-  return {input, document, request, tree, render, feedback: evaluateRenderFeedback(render, context)};
+  return {input, document, request, tree, render, feedback: evaluateRenderFeedback(render, context), selectedTemplate, templatePackage};
 }
 
 export function createCvFixture(id: string): SlyCvProducerInput {

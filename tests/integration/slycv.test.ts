@@ -21,6 +21,11 @@ test('executes the six SlyCV producer-to-Chromium fixtures', {skip: !existsSync(
     assert.equal(result.feedback.traceId, result.request.traceId);
     assert.equal(result.feedback.contextId, result.request.contextId);
     assert.deepEqual(result.document.slots.experience?.items, result.input.experience, fixtureId);
+    assert.equal(result.selectedTemplate.selectionMode, 'MANUAL', fixtureId);
+    assert.equal(result.selectedTemplate.packageId, result.templatePackage.packageId, fixtureId);
+    assert.equal(result.request.template_id, result.templatePackage.templateContract.template_id, fixtureId);
+    assert.deepEqual(result.request.template_package_ref, {reference: result.templatePackage.packageId, version: result.templatePackage.packageVersion}, fixtureId);
+    assert.deepEqual(result.tree.document.template_package_ref, result.request.template_package_ref, fixtureId);
     assert.equal(result.tree.document.document_id, result.document.document_id);
     if (fixtureId === 'CV_UNICODE') unicodeSignature = JSON.stringify({status: result.feedback.status, pages: result.render.measurements?.page_count, measurements: result.render.measurements});
     if (fixtureId === 'CV_CONSTRAINT_VIOLATION') {

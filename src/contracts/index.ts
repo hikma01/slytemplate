@@ -64,6 +64,7 @@ export interface RenderRequest<TSlotMap extends SlotMap = SlotMap> {
   readonly lineage: readonly LineageEntry[];
   readonly template_id: string;
   readonly template_version: SemVer;
+  readonly template_package_ref?: ImmutableVersionRef;
   readonly payload: PresentationDocumentDTO<TSlotMap>;
   readonly presentation_contract_version: SemVer;
   readonly design_policy_version: ImmutableVersionRef;
@@ -265,6 +266,7 @@ export function validateRenderRequest(value: unknown): asserts value is RenderRe
   const record = value as Record<string, unknown>;
   assertLineage(record.lineage, 'lineage');
   assertSemVer(record.template_version, 'template_version');
+  if (record.template_package_ref !== undefined) assertVersionRef(record.template_package_ref, 'template_package_ref');
   assertSemVer(record.presentation_contract_version, 'presentation_contract_version');
   validatePresentationDocument(record.payload);
   assertVersionRef(record.design_policy_version, 'design_policy_version');

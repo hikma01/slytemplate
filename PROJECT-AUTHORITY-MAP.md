@@ -32,6 +32,9 @@ STI, preuves ou décisions.
 | LOT 4 implementation evidence | Development / QA | [SLYDESIGN-LOT4-IMPLEMENTATION-REPORT](evidence/SLYDESIGN-LOT4-IMPLEMENTATION-REPORT.md) |
 | LOT 5 implementation evidence | Development / QA | [SLYDESIGN-LOT5-IMPLEMENTATION-REPORT](evidence/SLYDESIGN-LOT5-IMPLEMENTATION-REPORT.md) |
 | LOT 6 implementation evidence | Development / QA | [SLYDESIGN-LOT6-IMPLEMENTATION-REPORT](evidence/SLYDESIGN-LOT6-IMPLEMENTATION-REPORT.md) |
+| Downstream V1 package/registry/selection contracts | Frozen authority; implementation complete, Human Review pending | [RFC-SLYTEMPLATE-DOWNSTREAM-V1-001](Documents/RFC-SLYTEMPLATE-DOWNSTREAM-V1-001_CONTRACTS.md) |
+| Downstream V1 ownership boundary | Frozen authority; implementation complete, Human Review pending | [ADR-SLYTEMPLATE-DOWNSTREAM-001](Documents/ADR-SLYTEMPLATE-DOWNSTREAM-001_BOUNDARIES_AND_OWNERSHIP.md) |
+| Downstream V1 acceptance evidence | Frozen authority; implementation complete, Human Review pending | [STI-SLYTEMPLATE-DOWNSTREAM-V1-001](Documents/STI-SLYTEMPLATE-DOWNSTREAM-V1-001_ACCEPTANCE.md) |
 | Topologie transverse existante | SlyPlatform | [Project Authority Map](../SlyPlatform/00-GOVERNANCE/PROJECT-AUTHORITY-MAP.md) |
 | Méthode, rôles et gates | SlyMethod | Références SlyMethod, selon le protocole CC/CT |
 

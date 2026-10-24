@@ -6,14 +6,14 @@ en arbre de présentation, puis délègue le rendu à un backend à sélectionne
 
 ## Statut
 
-- `MODULE_STATUS`: `DOCUMENTARY_FOUNDATION_ONLY`
-- `IMPLEMENTED_DOMAIN`: `CV_ONLY`
-- `CODE_AUTHORITY`: `NOT_GRANTED`
-- `RUNTIME_STATUS`: `NOT_IMPLEMENTED`
+- `MODULE_STATUS`: `V1_IMPLEMENTED_WITH_OPERATIONAL_DEBT`
+- `IMPLEMENTED_DOMAIN`: `CV_V1`
+- `CODE_AUTHORITY`: `CLOSED_AFTER_V1`
+- `RUNTIME_STATUS`: `VALIDATED_V1_WITH_OPERATIONAL_DEBT`
 
-Cette arborescence contient uniquement la formalisation documentaire de la
-fondation. Aucun moteur SlyTemplate, template exécutable ou renderer n'est
-autorisé par cette mission.
+Cette arborescence contient la fondation documentaire et le socle V1 CV
+validé par les lots 1 à 7. Aucun nouveau downstream `TemplatePackage`,
+Registry ou automatic selection n'est autorisé par cette préparation.
 
 ## Chaîne de responsabilité
 
@@ -69,6 +69,9 @@ SlyTemplate. Aucun développement du moteur n'est autorisé par la fondation.
 - [LOT 4 implementation evidence](evidence/SLYDESIGN-LOT4-IMPLEMENTATION-REPORT.md)
 - [LOT 5 implementation evidence](evidence/SLYDESIGN-LOT5-IMPLEMENTATION-REPORT.md)
 - [LOT 6 implementation evidence](evidence/SLYDESIGN-LOT6-IMPLEMENTATION-REPORT.md)
+- [Downstream V1 contracts](Documents/RFC-SLYTEMPLATE-DOWNSTREAM-V1-001_CONTRACTS.md)
+- [Downstream V1 ownership boundary](Documents/ADR-SLYTEMPLATE-DOWNSTREAM-001_BOUNDARIES_AND_OWNERSHIP.md)
+- [Downstream V1 acceptance evidence](Documents/STI-SLYTEMPLATE-DOWNSTREAM-V1-001_ACCEPTANCE.md)
 
 ## Extensions futures
 
